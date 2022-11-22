@@ -7,6 +7,7 @@ public enum ErrorCode {
 
     BRIDGE_LENGTH_OUT_OF_RANGE("다리의 길이는 3 ~ 20 사이 숫자로만 이루어진 수를 입력할 수 있습니다."),
     CANT_BLANK_OR_NULL_INPUT("null 이나 빈값이 들어올 수 없습니다."),
+    NOT_FOUND_MOVE_ENUM("존재하지 않는 Move alias로 enum을 불러오려고 하였습니다."),
     ;
 
     private final String message;
